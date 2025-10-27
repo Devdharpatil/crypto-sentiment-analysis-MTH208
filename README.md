@@ -138,7 +138,7 @@ project/
 │
 ├── eda_crypto_reddit.R             # Exploratory Data Analysis script
 ├── sentiment_analysis.R            # Sentiment computation script
-├── get_historical_prices_2021_alternative.R  # Price data collection
+├── get_historical_prices_2021.R  # Price data collection
 ├── correlation_analysis.R          # Statistical correlation analysis
 │
 ├── README.md                       # This file
@@ -195,7 +195,7 @@ source("sentiment_analysis.R")
 
 **3. Historical Price Data Collection**
 ```r
-source("get_historical_prices_2021_alternative.R")
+source("get_historical_prices_2021.R")
 ```
 - Fetches BTC, ETH, DOGE prices from CryptoCompare API
 - Covers August-September 2021
